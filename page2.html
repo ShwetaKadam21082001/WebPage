@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav
+        class="md:flex  md:justify-between md:items-center md:px-4 lg:px-12 shadow p-2 fixed top-0 w-full bg-white z-50">
+        <ul>
+            <li>
+                <a href=""><img
+                        src="https://raw.githubusercontent.com/CodekulNitin/3pm-batch-tailwind-26-12-2022/e035aa0042cadcc3e1e424c966f5787dc29535ef/tailwind/homePage/assets/logo.png"
+                        class="h-12" alt=""></a>
+            </li>
+        </ul>
+        <div class="hidden lg:block">
+
+            <ul class="flex space-x-3 items-center">
+                <li>
+                    <a href="">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Course
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <button class="bg-indigo-900 text-white rounded p-1 px-5" type="button">
+                        Log In
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <ul class="lg:hidden">
+            <li class="text-red-600 text-xl">
+                <a href="">
+                    <i class="fa-solid fa-bars">
+
+                    </i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="mt-20 lg:flex px-4 lg:px-12 justify-between px-4 lg:px-12">
+        <div>
+            <h1 class="text-indigo-900 lg:text-2xl text-sm lg:text-4xl font-semibold lg:mt-16">Get Access To Unlimited
+                <br>
+                Resourses!
+            </h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Quisquam libero nobis unde quae nisi nam
+                esse non magni. Nesciunt odio magni, laborum <br>laboriosam natus in corrupti quisquam repellendus ipsum
+                voluptatibus?</p>
+            <div class="border w-[88%] rounded  mt-3">
+                <input type="text" placeholder="Search Course" class="pl-2 w-10/12 h-38" />
+                <button class=" text-white rounded p-1 px-5 bg-orange-500" type="button">
+                    Button
+                </button>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://raw.githubusercontent.com/CodekulNitin/3pm-batch-tailwind-26-12-2022/e035aa0042cadcc3e1e424c966f5787dc29535ef/tailwind/homePage/assets/header.svg"
+                class="lg:h-96" />
+        </div>
+    </div>
+    <div class="px-4 lg:px-12">
+        <label class="flex justify-center font-semibold text-indigo-900 text-2xl"><b>Popular Category</b></label><br>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-2 p-2 ">
+            <div class="  shadow h-62 p-3">
+                <div class="grid justify-center ">
+                    <div class="box-border rounded-full object-center py-7 px-6  bg-gray-100 h-28 w-28 ">
+                        <img src="./Vector (9).svg" alt="">
+                    </div>
+                </div><br>
+                <h1 class="text-blue-900 text-center"><b>Web Development</b></h1>
+                <p class="text-black-500 text-center">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. </p>
+            </div>
+            <div class="  shadow h-62 p-3">
+                <div class="grid justify-center ">
+                    <div class="box-border rounded-full object-center py-7 px-6  bg-gray-100 h-28 w-28">
+                        <img src="./Vector (10).svg" alt="" />
+                    </div>
+                </div><br>
+                <h1 class="text-blue-900 text-center"><b>Digital Marketing</b></h1>
+                <p class="text-black-500 text-center">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. </p>
+            </div>
+            <div class="  shadow h-62 p-3">
+                <div class="grid justify-center ">
+                    <div class="box-border rounded-full object-center py-7 px-6  bg-gray-100 h-28 w-28">
+                        <img src="./Vector (7).svg" alt="" />
+                    </div>
+                </div><br>
+                <h1 class="text-blue-900 text-center"><b>Graphics Designing</b></h1>
+                <p class="text-black-500 text-center">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. </p>
+            </div>
+            <div class="  shadow h-62 p-3">
+                <div class="grid justify-center ">
+                    <div class="box-border rounded-full object-center py-7 px-6  bg-gray-100 h-28 w-28">
+                        <img src="./Vector.svg" alt="" />
+                    </div>
+                </div><br>
+                <h1 class="text-blue-900 text-center"><b>App Development</b></h1>
+                <p class="text-black-500 text-center">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. </p>
+            </div>
+        </div>
+    </div><br>
+    <div>
+        <nav>
+            <ul class="flex space-x-8 lg:px-14 py-4">
+                <li class="text-blue-900 underline">All Category</li>
+                <li>UI/UX Design </li>
+                <li>Web Development</li>
+                <li>Digital Marketing </li>
+                <li>App Devellopment</li>
+            </ul>
+        </nav>
+        <br>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-2 p-2">
+            <div class=" rounded-xl ml-5 card border border-white-600 shadow h-67 w-61">
+                <video class="rounded-xl w-full"
+                    src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSGkIQnWPmWLteFOGppFKEK_-B-kqM5MhEDpA"></video><br>
+                <h1 class="ml-5">Graphics Design</h1>
+                <h2 class="ml-5"><b>Fundamental of design & Drawing</b></h2>
+                <div class=" w-full px-28 bg-orange-600 rounded ">Join Courses</div>
+            </div>
+            <div class="rounded-xl  ml-5 card border border-white-600 shadow h-67 w-61">
+                <video class="rounded-xl w-full"
+                    src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRrcdNI-T_EQzQomvtekekNE7sWQFu2nlqY2w"></video><br>
+                <h1 class="ml-5">UI/UX Design</h1>
+                <h2 class="ml-5"><b>Interaction The Design & Principle</b></h2>
+                <div class="w-full px-28 bg-orange-600 rounded">Join Courses</div>
+            </div>
+            <div class="rounded-xl ml-5 card border border-white-600 shadow h-67 w-61">
+                <video class="rounded-xl w-full"
+                    src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQ4US8w1GUP2LksofvPFyfWQ49Mrhh5joYovw"></video><br>
+                <h1 class="ml-5">App Development</h1>
+                <h2 class="ml-5"><b>Fundamental Of Design & Drawing</b></h2>
+                <div class="w-full px-28 bg-orange-600 rounded">Join Courses</div>
+            </div>
+            <div class="rounded-xl ml-5 card border border-white-600 shadow h-67 w-61">
+                <video class="rounded-xl w-full"
+                    src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQpyJPZ1Q83MPp5SIa7xjczVloAMD4Y6pr2sw"></video><br>
+                <h1 class="ml-5">Digital Marketing</h1>
+                <h2 class="ml-5"><b>Digital Marketing Of The Landscape</b></h2>
+                <div class="w-full px-28 bg-orange-600 rounded">Join Courses</div>
+            </div>
+        </div><br>
+        <div class=" ml-96 text-blue-900 px-80 underline"><b>View More Courses</b></div><br><br>
+        <div class="px-4 lg:px-12">
+            <h1 class="ml-56 text-blue-900 px-80 text-3xl"><b>People Says About Course</b></h1><br>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3  gap-2 p-2">
+                <div class=" shadow h-36 rounded-xl flex bg-gray-200 w-full">
+                    <img class="ml-5 rounded-2xl w-28 py-2" src="https://media.istockphoto.com/id/1214910828/fr/photo/verticale-de-plan-rapproch%C3%A9-du-jeune-homme-beau-regardant-lappareil-photo.jpg?s=170667a&w=0&k=20&c=rxyYy4Bi3iLlpoAJ5YeT2RYGfmWbfFM44ztPztQl3EU="
+                        alt=""><br>
+                    <div class="grid text-sm">
+                        <h1 class="text-2xl py-1 ml-5"><b>Prashant Kedar</b></h1>
+                        <p class="ml-5">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Tenetur</p>
+                    </div>
+                </div>
+                <div class=" shadow h-36 rounded-xl flex bg-gray-200 w-full">
+                    <img class="ml-5 rounded-2xl w-28 py-2" src="https://thumbs.dreamstime.com/b/handsome-male-model-posing-elegant-smile-88528667.jpg"
+                        alt=""><br>
+                    <div class="grid text-sm">
+                        <h1 class="text-2xl py-1 ml-5"><b>Karan Rudra</b></h1>
+                        <h1 class="py-1 ml-5">Application Developer</h1>
+                        <p class="ml-5">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Tenetur</p>
+                    </div>
+                </div>
+                        <div class=" shadow h-36 rounded-xl flex bg-gray-200 w-full ">
+                    <img class="rounded-2xl py-2 ml-5 w-28" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAvQqlZnT-15DEalKOxZDzLysGTaNrVuV6A&usqp=CAU"
+                        alt=""><br>
+                    <div class="grid text-sm">
+                        <h1 class="text-2xl py-1 ml-5"><b>Rohit Sharma</b></h1>
+                        <h1 class=" py-2 ml-5">Web Devoloper</h1>
+                        <p class="ml-5">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Tenetur</p>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class=" lg:flex w-full h-65 bg-indigo-900 justify-between">
+            <div class="ml-5">
+            <h1 class="text-red-900  text-2xl"><b>Learnit</b></h1>
+            <h2 class="text-white text-2xl">Seat No.340 New York United <br> States</h2><br>
+            <div class="flex">
+                <img src="Facebook Circled.svg" alt="">
+                <img src="WhatsApp.png" alt="">
+                <img src="./LinkedIn Circled.png" alt="">
+                <img src="./Twitter Circled.png" alt="">
+            </div>
+            </div>
+            <div class="ml-10">
+                <h1 class="text-white text-xl"><b>Categories</b></h1><br>
+                <h1 class="text-white">Web Development</h1><br>
+                <h1 class="text-white">Mobile App</h1><br>
+                <h1 class="text-white">Graphics Design </h1><br>
+                <h1 class="text-white">Degital Marketing</h1>
+            </div>
+            <div class="ml-10">
+                <h1 class="text-white text-xl"><b>Useful Links</b></h1><br>
+                <h1 class="text-white">Home</h1><br>
+                <h1 class="text-white">Gallery</h1><br>
+                <h1 class="text-white">About </h1><br>
+                <h1 class="text-white">Contact US</h1>
+            </div>
+            <div class="ml-10">
+                <h1 class="text-white text-xl"><b>Stay Connected!</b></h1><br>
+                <div><button class="m-4 rounded-full border-4 px-16 px-16 py-3 uppercase font-bold text-sm
+                    bg-white text-red-500">Subcribe </button> </div><br>
+                <div class="flex">
+                 <img src="./Call.png" alt="">
+                 <h1 class="text-white">+123 4567 4567</h1>
+                </div>
+                <h1 class="text-white">Contact@examle.com</h1>
+            </div>
+        </div>
+
+
+
+</body>
+
+</html>
